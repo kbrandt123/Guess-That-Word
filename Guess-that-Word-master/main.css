@@ -1,0 +1,66 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message {
+  position: relative;
+  margin: 50px;
+  left: 20rem;
+}
+
+.btn-check {
+  position: relative;
+  top: 20px;
+  padding: 15px;
+  width: 10%;
+}
+
+.btn-reset {
+  position: relative;
+  right: 375px;
+  bottom: 300px;
+  padding: 15px;
+  width: 10%;
+}
+
+.word {
+  font-size: 50px;
+}
+
+.score {
+  position: relative;
+  left: 500px;
+}
+
+.letters-container {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.letters {
+  text-align: center;
+  font-size: 20px;
+}
+
+input {
+  width: 50px;
+  padding: 10px;
+  font-size: 2rem;
+  height: 50px;
+}
+
+.hidden {
+  display: none;
+}
