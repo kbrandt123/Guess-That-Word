@@ -6,6 +6,17 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  font-family: "Kdam Thmor Pro";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -15,38 +26,66 @@ html {
 
 .message {
   position: relative;
-  margin: 50px;
-  left: 20rem;
+  left: 25rem;
+  font-size: 25px;
 }
 
 .btn-check {
   position: relative;
   top: 20px;
-  padding: 15px;
+  padding: 30px;
   width: 10%;
+  border-radius: 10px;
+  font-family: "Kdam Thmor Pro";
+  background: rgb(238, 130, 238);
+  font-size: 20px;
+}
+
+.btn-check:hover {
+  background: rgb(238, 130, 238, 0.7);
 }
 
 .btn-reset {
   position: relative;
-  right: 375px;
-  bottom: 300px;
-  padding: 15px;
+  right: 750px;
+  bottom: 450px;
+  padding: 30px;
   width: 10%;
+  background: rgb(255, 49, 49);
+  border-radius: 10px;
+  font-family: "Kdam Thmor Pro";
+  font-size: 20px;
+}
+
+.btn-reset:hover {
+  background: rgb(255, 49, 49, 0.7);
 }
 
 .word {
   font-size: 50px;
 }
 
+.score-container {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+  font-size: 25px;
+}
+
 .score {
   position: relative;
-  left: 500px;
+  left: 5px;
+}
+
+.heart {
+  position: relative;
+  font-size: 49px;
 }
 
 .letters-container {
-  width: 30%;
-  padding: 20px;
-  border: 1px solid;
+  width: 20%;
+  border: 2px;
+  height: 60px;
 }
 
 .letters {
@@ -55,12 +94,12 @@ html {
 }
 
 input {
-  width: 50px;
-  padding: 10px;
-  font-size: 2rem;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
   height: 50px;
-}
-
-.hidden {
-  display: none;
+  border: 2mm ridge;
+  resize: none;
+  outline: none;
+  text-align: center;
 }
