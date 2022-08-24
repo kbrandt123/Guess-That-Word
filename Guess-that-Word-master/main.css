@@ -69,12 +69,13 @@ h1 {
   position: relative;
   left: 600px;
   bottom: 50px;
-  font-size: 25px;
+  font-size: 49px;
 }
 
 .score {
   position: relative;
   left: 5px;
+  font-size: 49px;
 }
 
 .heart {
